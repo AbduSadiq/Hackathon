@@ -31,8 +31,8 @@ def analyze_global_anomaly(data):
     print("-" * 45)
     print(f"Data Span: {start_year} - {end_year} ({time_span} years)")
     print(f"Starting Anomaly ({start_year}): {start_anomaly}°C")
-        print(f"Ending Anomaly ({end_year}): {end_anomaly}°C")
-        print("-" * 45)
+    print(f"Ending Anomaly ({end_year}): {end_anomaly}°C")
+    print("-" * 45)
 
     change_color_start = "\033[91m"
     change_color_end = "\033[0m"
